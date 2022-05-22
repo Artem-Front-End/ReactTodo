@@ -1,0 +1,43 @@
+.todos{
+    padding: 10px;
+}
+
+.todo{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.todo h2{
+    font-size: 23px;
+}
+
+form{
+    width: 90%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+form input{
+    width: 80%;
+    border: 2px solid #2165D5;
+}
+
+form button{
+    width: 10%;
+    border-radius: 35%;
+    margin-left: 30px;
+    height: 30px;
+    border: 3px solid #2165D5;
+    background-color: white;
+    color: #2165D5;
+    font-weight: bold;
+}
+
+.removeBtn{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
